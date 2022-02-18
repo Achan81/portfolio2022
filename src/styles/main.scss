@@ -1,0 +1,80 @@
+@import "~bootstrap/scss/bootstrap";
+
+// @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
+
+// $enable-negative-margins: true.
+
+
+body {
+  font-family: 'K2D', sans-serif;
+
+}
+
+// * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
+
+.nav
+
+
+
+.container-lg {
+  background-color: red;
+}
+
+// * * * * * * * * * * * * H O M E * * * * * * * * * * * * 
+
+#home {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+
+// * * * * * * * * * * * * A B O U T * * * * * * * * * * * * 
+
+#about {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+// * * * * * * * * * * * * S K I L L S * * * * * * * * * * * * 
+
+#skills {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+// * * * * * * * * * * * * P R O J E C T S * * * * * * * * * * * * 
+
+#projects {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+// * * * * * * * * * * * * E X P E R I E N C E * * * * * * * * * * * * 
+
+#experience {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+// * * * * * * * * * * * * I N T E R E S T S * * * * * * * * * * * * 
+
+#interests {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+
+// * * * * * * * * * * * * C O N T A C T * * * * * * * * * * * * 
+
+
+#contact {
+  margin: 300px 0 450px 0;
+  text-align: center;
+}
+// * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
+
+

@@ -3,14 +3,7 @@
 ## Using NPM
 
 `npm run start` or `npm run dev`  to run the development server
-
 `npm run build` to create a build directory
-
-## Using Yarn
-
-`yarn start` or `yarn dev`  to run the development server
-
-`yarn build` to create a build directory
 
 ### ⚠️
 
@@ -19,4 +12,27 @@ To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`,
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### npm i
+
 ### connecting this app to GITHUB 
+* Connecting app to GitHub
+* on GitHub to go top right icon (me).
+* select “Your repositories”
+* NEW
+* add repository name
+* create repository
+* GitHub setup stage…
+* pasting commands into terminal.. 
+* make sure terminal location is in the same named folder.
+```js
+`git init`
+`git add` (if any file has been changed from default template)
+`git commit -m "first commit"`
+`git branch -M main`
+`git remote add origin git@github.com:Achan81/XXXX.git`(XXXX replace with registered git repo name)
+`git push origin main`
+```
+
+### dependencies
+npm install bootstrap
+
+ADD `@import "~bootstrap/scss/bootstrap";` to top of SASS file
