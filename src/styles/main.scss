@@ -42,22 +42,29 @@ body {
 
 .title {
   font-size: 50px;
-
 }
 
 
 // * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
 
+
 #square {
-  width: 110px;
-  height: 68px;
-  border-bottom-right-radius: 50px;
-  outline-color: black;
-  outline-width: 0.5px;
-  outline-style: solid;
-  opacity: 75%;
-  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+//   width: 136px;
+//   height: 85px;
+//   border-bottom-right-radius: 50px;
+//   outline-color: black;
+//   outline-width: 0.5px;
+//   outline-style: solid;
+  opacity: 80%;
+//   box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  letter-spacing: 3px;
 }
+
+.navlist {
+  letter-spacing: 3px;
+  opacity: 80%;
+}
+
 
 // * * * * * * * * * * * * H O M E * * * * * * * * * * * * 
 
@@ -104,19 +111,19 @@ background-position:0 25%;
 color:transparent;
 padding:20px 40px;
 -webkit-background-clip:text;
-    -moz-background-clip:text;
-    background-clip:text;
-    -webkit-text-fill-color:transparent;
+-moz-background-clip:text;
+background-clip:text;
+-webkit-text-fill-color:transparent;
 -webkit-animation:BackgroundAnimated 30s linear infinite alternate;
-    -moz-animation:BackgroundAnimated 30s linear infinite alternate;
-    -ms-animation:BackgroundAnimated 30s linear infinite alternate;
-    -o-animation:BackgroundAnimated 30s linear infinite alternate;
-    animation:BackgroundAnimated 30s linear infinite alternate;
+-moz-animation:BackgroundAnimated 30s linear infinite alternate;
+-ms-animation:BackgroundAnimated 30s linear infinite alternate;
+-o-animation:BackgroundAnimated 30s linear infinite alternate;
+animation:BackgroundAnimated 30s linear infinite alternate;
 }
 
 @keyframes BackgroundAnimated {
   from {
-    background-position:0 0
+    background-position:100 0
   }
   to {
     background-position:100% 0
@@ -186,6 +193,37 @@ padding:20px 40px;
   margin: 300px 0 450px 0;
   text-align: center;
 }
+
+.interests-img {
+  border-radius: 18%;
+
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+
+  float: left, right, top, bottom;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  z-index: 1;
+}
+
+.interests-img:hover {
+  z-index: 5;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+}
+
+
+
+
+
+
+
 
 // * * * * * * * * * * * * C O N T A C T * * * * * * * * * * * * 
 

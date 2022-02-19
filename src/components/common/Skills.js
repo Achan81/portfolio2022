@@ -58,63 +58,6 @@ function Skills() {
 
       </div>
       <hr className="bg-dark border-5 border-top border-dark"></hr>
-
-
-
-      {/* <div className="container fs-6 mb-0">
-        <div className="row">
-          <hr></hr>
-          <ul className="col">
-            <li className="fw-bold">FRONT END</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>SASS</li>
-            <li>Bulma</li>
-            <li>Bootstrap 5.0</li>
-            <li>Tailwind 3.0</li>
-          </ul><hr></hr>
-
-          <ul className="col">
-            <li className="fw-bold">BACK END</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>Mongoose</li>
-            <li>Python 3</li>
-            <li>Django</li>
-            <li>Insomnia</li>
-            <li>TablePlus</li>
-          </ul><hr></hr>
-
-          <ul className="col">
-            <li className="fw-bold">PACKAGE</li>
-            <li>npm</li>
-            <li>pip</li>
-          </ul><hr></hr>
-        
-          <ul className="col">
-            <li className="fw-bold">STORAGE</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
-            <li>Cloudinary</li>
-          </ul><hr></hr>
-
-          <ul className="col">
-            <li className="fw-bold">VERSION CONTROLS</li>
-            <li>Git</li>
-            <li>GitHub</li>
-          </ul><hr></hr>
-
-          <ul className="col">
-            <li className="fw-bold">DESIGN</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Photoshop</li>
-            <li>Excalidraw (planning)</li>
-          </ul><hr></hr>
-        </div>
-      </div> */}
-
     </section>
   )
 }
