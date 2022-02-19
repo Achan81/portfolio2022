@@ -1,7 +1,7 @@
 function Projects() {
   return (
 
-    <section className="mt-50 blurry-text opacity-75" id="projects">
+    <section className="bgClip mt-50 blurry-text opacity-75" id="projects">
 
       <div className="title text-uppercase mb-0 fw-bold">projects</div>
       <hr className="bg-dark border-5 border-top border-dark"></hr>

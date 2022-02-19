@@ -1,7 +1,7 @@
 function Skills() {
   return (
 
-    <section className="mt-50 blurry-text opacity-75" id="skills">
+    <section className="bgClip mt-50 blurry-text opacity-75" id="skills">
       <div className="title text-uppercase mb-0 fw-bold">skills</div>
       <hr className="col-12 bg-dark border-5 border-top border-dark"></hr>
 

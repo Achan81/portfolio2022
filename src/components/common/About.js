@@ -3,7 +3,7 @@ function About() {
 
     <section className="col-6 blurry-text opacity-75" id="about">
 
-      <div className="title text-uppercase fw-bold">about me</div>        
+      <div className="bgClip title text-uppercase fw-bold">about me</div>        
       <hr className="bg-dark border-5 border-top border-dark"></hr>
       <div className="fw-lighter fs-6 mb-0">
         After spending over a decade in menswear fashion design, I wanted to move into a career that would challenge me and allow me to combine my design background and experience into programming.

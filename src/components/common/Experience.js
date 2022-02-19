@@ -3,7 +3,7 @@ function Experience() {
   
     <section className="blurry-text opacity-75" id="experience">
   
-      <div className="title text-uppercase fw-bold">experience</div>
+      <div className="bgClip title text-uppercase fw-bold">experience</div>
       <hr className="bg-dark border-5 border-top border-dark"></hr>
 
       <div className="text-uppercase fs-5 fw-bold">Design Manager/Head of Design - The 1922 Clothing Company Ltd (2014 - 2020)</div>
