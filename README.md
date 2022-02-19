@@ -34,5 +34,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### dependencies
 npm install bootstrap
-
 ADD `@import "~bootstrap/scss/bootstrap";` to top of SASS file

@@ -1,13 +1,32 @@
 function Home() {
   return (
 
-    <section className="d-flex flex-column mt-50" id="home">
+    <section className="homecontainer-fluid d-flex flex-column mt-50" id="home">
 
-      {/* <p className="tbc">Hi, my name is</p> */}
+      <div className="blurry-text opacity-75 homegroup ">
+        
+        <div className="container-fluid text-uppercase d-flex flex-column">
+          
 
-      <div className="title text-uppercase mb-0 fw-bold lh-sm ">alex chan</div>
-      <div className="text-capitalize fs-3 lh-sm">junior software developer</div>
-      <div className="text-capitalize fs-6 fw-bold lh-sm"> react | javaScript | python</div>
+          <p className="titlehome fw-normal mt-n60">junior</p>
+          <p className="software outline titlehome fst-italic fw-normal mt-n55">software</p>
+
+          <p className="titledev fw-bold mt-n60">developer</p>
+    
+        </div>
+
+        <div className="container mt-n25 text-uppercase ">
+          <div className="d-flex flex-row justify-content-lg-center">
+            <p className="fs-normal mt-n20 fw-bold fs-1">in</p>
+            <p className="titlehome outline mt-n35 fw-bolder pl-4 ">london</p>
+            <p className="title">...</p>
+          </div>
+
+          <p className="subtitle text-uppercase fw-bold fs-6 mt-n30"> react | javaScript | python | css</p>
+          <hr className="bg-dark border-5 border-top border-dark"></hr>
+        </div>
+
+      </div>
 
       {/* with graphic & fashion design background */}
 

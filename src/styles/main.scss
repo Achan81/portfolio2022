@@ -3,19 +3,58 @@
 // @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
 
-// $enable-negative-margins: true.
 
+// negative margin up because Bootstrap does not offer this in 5.0
+$enable-negative-margins: true;
+.mt-n65 {margin-top: -6.5rem !important;}
+.mt-n60 {margin-top: -6rem !important;}
+.mt-n55 {margin-top: -5.5rem !important;}
+.mt-n50 {margin-top: -5rem !important;}
+.mt-n45 {margin-top: -4.5rem !important;}
+.mt-n40 {margin-top: -4rem !important;}
+.mt-n35 {margin-top: -3.5rem !important;}
+.mt-n30 {margin-top: -3.0rem !important;}
+.mt-n25 {margin-top: -2.5rem !important;}
+.mt-n20 {margin-top: -2rem !important;}
+.mt-n15 {margin-top: -1.5rem !important;}
+.mt-n10 {margin-top: -1rem !important;}
 
 body {
-  font-family: 'K2D', sans-serif;
+  font-family: 'Saira', sans-serif;
+  // color: white;
+  color: black;
+  
+  // background-image: url('https://i.imgur.com/OQsplhT.gif');
+  background-image: url('https://i.imgur.com/UvwBpkI.gif');
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.grid {
+width: 100%;
+background-image: url('https://i.imgur.com/0bDaIgT.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+opacity: 50%;
+}
+
+.blurry-text {
+  outline-color: black;
+  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.title {
+  font-size: 50px;
 
 }
+
 
 // * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
 
 .nav
-
-
 
 .container-lg {
   background-color: red;
@@ -28,9 +67,35 @@ body {
   text-align: center;
 }
 
-.title {
-  font-size: 50px;
+.titlehome {
+  font-size: 100px;
 }
+
+.titledev {
+  font-size: 120px;
+  letter-spacing: 10px;
+}
+
+.software {
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  letter-spacing: 10px;
+}
+
+.outline {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+}
+
+.outline05 {
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+}
+
 
 
 // * * * * * * * * * * * * A B O U T * * * * * * * * * * * * 
@@ -51,7 +116,10 @@ body {
 
 #projects {
   margin: 300px 0 450px 0;
-  text-align: center;
+  text-align: center;  
+}
+.exp {
+  text-align: justify; 
 }
 
 // * * * * * * * * * * * * E X P E R I E N C E * * * * * * * * * * * * 
