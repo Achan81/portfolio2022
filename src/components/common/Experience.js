@@ -1,3 +1,4 @@
+import React from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css' 
 
@@ -5,15 +6,13 @@ function Experience() {
   AOS.init()
   return (
   
-    <section className="bgClip blurry-text opacity-75" id="experience">
+    <section className="blurry-text opacity-75" id="experience">
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <div className="title text-uppercase fw-bold">experience</div>
+        <div className="bgClip title text-uppercase fw-bold">experience</div>
         <hr className="bg-dark border-5 border-top border-dark"></hr>
 
-
-
-        <button type="button" className="collapsible  text-uppercase fs-6 fw-bold">Design Manager/Head of Design - The 1922 Clothing Company Ltd (2014 - 2020)</button>
-        <div className="content">
+        <button type="button" className="collapsible text-uppercase fs-6 fw-bold">Design Manager/Head of Design - The 1922 Clothing Company Ltd (2014 - 2020)</button>
+        <div className="content bgClip">
           <p ul className="fw-lighter exp fs-6 mb-0">
             <li>2014 - Promoted to Design Manager/Head of Design - overseeing the design team and designing for multiple brands supplying to the UK high street.</li>
             <li>Brands include Next mens shirts, River Island mens & boys shirts/jersey, TK Maxx men & boys shirts/jersey, Slaters Menswear Shirts, M&S shirts, Asos shirts, Urban Outfitters etc.</li>
@@ -28,8 +27,8 @@ function Experience() {
 
 
 
-        <div className="text-uppercase fs-6 fw-bold">Senior Designer - The 1922 Clothing Company Ltd (2009 - 2014)</div>
-        <ul className="fw-lighter exp fs-6 mb-0">
+        <div className="bgClip text-uppercase fs-6 fw-bold">Senior Designer - The 1922 Clothing Company Ltd (2009 - 2014)</div>
+        <ul className="bgClip fw-lighter exp fs-6 mb-0">
           <li>Promoted to Senior Designer, leading a small team of designers on my team.</li>
           <li>Recruiting and training Junior Designers.</li>
           <li>In charge of product development for seasonal concepts ownbrand and customer brands.</li>
@@ -38,8 +37,8 @@ function Experience() {
         </ul>
         <hr className="bg-dark border-5 border-top border-dark"></hr>
 
-        <div className="text-uppercase fs-6 fw-bold">Designer - The 1922 Clothing Company Ltd (2007 - 2009)</div>
-        <ul className="fw-lighter exp fs-6 mb-0">
+        <div className="bgClip text-uppercase fs-6 fw-bold">Designer - The 1922 Clothing Company Ltd (2007 - 2009)</div>
+        <ul className="bgClip fw-lighter exp fs-6 mb-0">
           <li>1922 is a whole sale supplier to the UK High Street.</li>
           <li>Initially working with a small customer base specialising in short leadtime product.</li>
           <li>My role was to cad / design for all customers and liase with factories to ensure samples were made correctly.</li> 
@@ -47,8 +46,8 @@ function Experience() {
         </ul>
         <hr className="bg-dark border-5 border-top border-dark"></hr>
 
-        <div className="text-uppercase fs-6 fw-bold">Fashion Graphic Designer  - Focus Brands (2005 - 2007)</div>
-        <ul className="fw-lighter exp fs-6 mb-0">
+        <div className="bgClip text-uppercase fs-6 fw-bold">Fashion Graphic Designer  - Focus Brands (2005 - 2007)</div>
+        <ul className="bgClip fw-lighter exp fs-6 mb-0">
           <li>Original company name, Focus International - the company specialised in license sportswear brands (garments and footwear).</li>
           <li>I joined the fashion department as a Graphic/Fashion Designer assisting established Fashion Designers to help cad hand sketched product to be factory ready for sampling and development.</li>
           <li>Customer base was a mixture of ownbrand (UaRe) supplying to the UK independants, and supplying SMU (special make up) to UK highstreet brands.</li>
@@ -57,8 +56,8 @@ function Experience() {
         </ul>
         <hr className="bg-dark border-5 border-top border-dark"></hr>
 
-        <div className="text-uppercase fs-6 fw-bold"> Freelance Graphic Designer (2004 - 2005)</div>
-        <ul className="fw-lighter exp fs-6 mb-0">
+        <div className="bgClip text-uppercase fs-6 fw-bold"> Freelance Graphic Designer (2004 - 2005)</div>
+        <ul className="bgClip fw-lighter exp fs-6 mb-0">
           <li>Fresh out of University, I was headhunted to contract freelance for a High Street brand called &quot;Pash&quot; (Girlswear) - head office located in Droitwich Spa. (contract period approx 6 months)</li>
           <li>My main duties were to cad garments and graphics for both factory sampling and catalogue presentation.</li>
           <li>My next long term contract was designing at Scratch Distribution / The Krunch in Worcester.</li>

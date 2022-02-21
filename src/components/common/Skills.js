@@ -1,3 +1,4 @@
+import React from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css' 
 
@@ -5,15 +6,15 @@ function Skills() {
   AOS.init()
   return (
 
-    <section className="bgClip mt-50 blurry-text opacity-75" id="skills">
+    <section className="mt-50 blurry-text" id="skills">
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <div className="title text-uppercase mb-0 fw-bold">skills</div>
+        <div className="bgClip title text-uppercase mb-0 fw-bold">skills</div>
         <hr className="col-12 bg-dark border-5 border-top border-dark"></hr>
 
         <div className="container">
           <div className="row">
 
-            <ul className="col">
+            <ul className="col bgClip">
               <div className="fw-bold mb-3">FRONT END</div>
               <li className="mb-3 fw-lighter">HTML5</li>
               <li className="mb-3 fw-lighter">CSS</li>
@@ -25,7 +26,7 @@ function Skills() {
               <li className="mb-3 fw-lighter">Tailwind 3.0</li>
             </ul>
 
-            <ul className="col">
+            <ul className="col bgClip">
               <div className="fw-bold mb-3">BACK END</div>
               <li className="mb-3 fw-lighter">Node.js</li>
               <li className="mb-3 fw-lighter">MongoDB</li>
@@ -36,7 +37,7 @@ function Skills() {
               <li className="mb-3 fw-lighter">TablePlus</li>
             </ul>
 
-            <ul className="col">
+            <ul className="col bgClip">
               <div className="fw-bold mb-3">PACKAGE</div>
               <li className="mb-3 fw-lighter">npm</li>
               <li className="mb-3 fw-lighter">pip</li>
@@ -48,7 +49,7 @@ function Skills() {
             </ul>
 
 
-            <ul className="col">
+            <ul className="col bgClip">
               <div className="fw-bold mb-3">VERSION CONTROLS</div>
               <li className="mb-3 fw-lighter">Git</li>
               <li className="mb-3 fw-lighter">GitHub</li>

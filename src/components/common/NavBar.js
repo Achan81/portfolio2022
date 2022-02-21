@@ -1,3 +1,4 @@
+import React from 'react'
 
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
@@ -7,9 +8,9 @@ function NavBar() {
 
     <Navbar bg="transparent" expand="md">
       
-      <Navbar.Brand className="col-3 nb fixed-top bgClip ms-1 mt-3 blurry-text" href="#">
+      <Navbar.Brand className="col-3 nb fixed-top ms-1 mt-3 blurry-text" href="#">
         
-        <div className="nb">
+        <div className="nb bgClip">
           <p className="fs-6 fw-bolder ms-0">PORTFOLIO</p>
           <p className="fs-6 fw-bolder mt-n10">OF ALEX</p>
           <p className="fs-6 fw-bolder mt-n10">CHAN</p>
@@ -32,15 +33,15 @@ function NavBar() {
 
           <Nav className="nb" 
             aria-current="page"> 
-            <div className="container col-3 nav-list bgClip text-decoration-none text-uppercase fw-bold fixed-bottom
-          d-flex flex-column me-0 text-end opacity-75 ">
-            
-              <Nav.Link className="text-end mt-n10" href="#about">About</Nav.Link>
-              <Nav.Link className="text-end mt-n10" href="#skills">Skills</Nav.Link>
-              <Nav.Link className="text-end mt-n10" href="#projects">Projects</Nav.Link>
-              <Nav.Link className="text-end mt-n10" href="#experience">Experience</Nav.Link>
-              <Nav.Link className="text-end mt-n10" href="#interests">Interests</Nav.Link>
-              <Nav.Link className="text-end mt-n10" href="#contact">Contact</Nav.Link>
+            <div className="container col-3 nav-list text-decoration-none text-uppercase fw-bold fixed-bottom
+          d-flex flex-column me-0 text-end">
+          
+              <Nav.Link className="bgClip text-end" href="#about">About</Nav.Link>
+              <Nav.Link className="bgClip text-end mt-n20" href="#skills">Skills</Nav.Link>
+              <Nav.Link className="bgClip text-end mt-n20" href="#projects">Projects</Nav.Link>
+              <Nav.Link className="bgClip text-end mt-n20" href="#experience">Experience</Nav.Link>
+              <Nav.Link className="bgClip text-end mt-n20" href="#interests">Interests</Nav.Link>
+              <Nav.Link className="bgClip text-end mt-n20" href="#contact">Contact</Nav.Link>
             </div>
           </Nav>
  

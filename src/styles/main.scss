@@ -26,10 +26,16 @@ body {
   font-family: 'Saira', sans-serif;
   // color: white;
   color: black;
-  
+
+  //* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+  //black urban abstract GIF:
   // background-image: url('https://i.imgur.com/OQsplhT.gif');
-  background-image: url('https://i.imgur.com/UvwBpkI.gif');
-  
+
+  //white urban abstract GIF:
+  // background-image: url('https://i.imgur.com/UvwBpkI.gif');
+
+  //static background white base:
+  background-image: url(https://i.imgur.com/DyLUqdw.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -57,6 +63,7 @@ body {
   opacity: 80%;
   text-align: right;
   width: 300px;
+  z-index: 50;
 }
 
 .top-nav {
@@ -88,9 +95,10 @@ body {
     position: absolute;
     right: 30px;
     top: 40px;
-    z-index: 5;
+    z-index: 50;
     position: fixed;
     padding: 10px;
+
   }
 
   
@@ -124,6 +132,8 @@ body {
   -webkit-text-stroke-color: black;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 // * * * * * * * * * * * * F O N T  T E X T U R E * * * * * * * * * * * * 
 
