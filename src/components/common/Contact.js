@@ -1,8 +1,13 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css' 
+
 function Contact() {
+  AOS.init()
   return (
 
-    <p>CONTACT SECTION</p>
-
+    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <p>CONTACT SECTION</p>
+    </div>
   )
 }
 export default Contact

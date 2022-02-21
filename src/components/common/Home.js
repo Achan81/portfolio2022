@@ -1,35 +1,33 @@
-function Home() {
+import AOS from 'aos'
+import 'aos/dist/aos.css' 
 
-  
+
+function Home() {
+  AOS.init()
   return (
 
-    <section className="homecontainer-fluid d-flex flex-column mt-50" id="home">
-
-      <div className="blurry-text opacity-75 homegroup ">
-        
-        <div className="container-fluid text-uppercase d-flex flex-column">
-          <p className="col-11 bgClip titlehome fw-normal mt-n70">junior</p>
-          <p className="software outline titlehome fst-italic fw-normal mt-n70">software</p>
-          <p className="bgClip titledev fw-bold mt-n70">developer</p>
-        </div>
-
-
-        <div className="container mt-n25 text-uppercase ">
-          <div className="col-12 d-flex flex-row justify-content-lg-center">
-            <p className="bgClip fs-normal mt-n40 fw-bold fs-1">in</p>
-            <p className="titlehome outline mt-n45 fw-bolder pl-4 ">london</p>
-            <p className="bgClip title mt-n20">...</p>
+    <div className="home">
+      <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div className="container-fluid justify-content-center blurry-text text-uppercase opacity-75" id="home">
+          <div className="bgClip">
+            <hr className="bg-dark border-5 border-top border-dark"></hr>
+            <div className="col display-4 fw-normal">junior</div>
+            <div className="col display-2 fw-bold mt-n05">software</div>
+            <div className="titledev col display-1 fw-normal mt-n10">developer</div>
+          
+            <div className="d-inline-flex mt-n15">
+              <div className="col fs-2 fw-normal mt-2 ">in</div>
+              <div className="col display-1 fw-bold mt-n5">london</div>
+              <div className="col display-1">...</div>
+            </div>
+            <p className="apps fw-normal"> react | javaScript | python | css</p>
+            <hr className="bg-dark border-5 border-top border-dark"></hr>
           </div>
-
-          <p className="subtitle text-uppercase fw-bold fs-6 mt-n30"> react | javaScript | python | css</p>
-          <hr className="bg-dark border-5 border-top border-dark"></hr>
         </div>
-
       </div>
+    </div>
 
-      {/* with graphic & fashion design background */}
 
-    </section>
   )
 }
 export default Home

@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <div className="container-lg">
         <div className="row justify-content-center">
-          <div className="col-10">
+          <div className="mainapp col-10">
             <Home/>
             <About/>
             <Skills/>
