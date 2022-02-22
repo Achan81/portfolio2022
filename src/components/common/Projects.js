@@ -74,10 +74,11 @@ function Projects() {
         The app functions as a database for searching and filtering from a variety of heroes/villains from various publishers to see and compare stats.</p>
             <div className="container">
               <div className="d-flex flex-row justify-content-center">
-                <a href="https:havdb.netlify.app/" rel="noopener noreferrer" target="_blank">
-                  <img alt="project2" src="https:i.imgur.com/XlwKBFw.png" className="icon project2-image col"/></a>
-                <a href="https:github.com/Achan81/sei-project-02/blob/main/README.md" rel="noopener noreferrer" target="_blank">
-                  <img alt="readme2" src="https:i.imgur.com/yWic7vC.png" className="icon readme2-image col"/></a>
+                <a href="https://havdb.netlify.app/" rel="noopener noreferrer" target="_blank">
+                  <img alt="project2" src="https://i.imgur.com/XlwKBFw.png" className="icon project2-image col"/></a>
+                  
+                <a href="https://github.com/Achan81/sei-project-02/blob/main/README.md" rel="noopener noreferrer" target="_blank">
+                  <img alt="readme2" src="https://i.imgur.com/yWic7vC.png" className="icon readme2-image col"/></a>
               </div>
             </div>
           </div>
