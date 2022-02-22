@@ -21,17 +21,11 @@ function Interests() {
             <img src= "https://i.imgur.com/M7uFXjn.jpg?1" className= "interests-img col-3" alt="interests img" />
             <img src= "https://i.imgur.com/XbIqIZ9.jpg?1" className= "interests-img col-3" alt="interests img" />
             <img src= "https://i.imgur.com/jQoBVS7.jpg?1" className= "interests-img col-3" alt="interests img" />
-          
           </div>      
       
         </div>       
         <hr className="bg-dark border-5 border-top border-dark"></hr>
       </div>
-      
-
-
-
-
     </section>
   )
 }

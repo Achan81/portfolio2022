@@ -8,6 +8,7 @@ import Projects from './components/common/Projects'
 import Skills from './components/common/Skills'
 import Interests from './components/common/Interests'
 import Contact from './components/common/Contact'
+import Footer from './components/common/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Experience/>
             <Interests/>
             <Contact/>
+            <Footer/>
           </div>
         </div>
       </div>
