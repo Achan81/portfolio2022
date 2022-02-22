@@ -39,7 +39,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center center;
 }
+
+
 
 .blurry-text {
   outline-color: black;
@@ -54,15 +57,18 @@ body {
 // * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
 
 .nb {
-  opacity: 80%;
   letter-spacing: 3px;
 }
 
+
 .nav-list {
   letter-spacing: 3px;
-  opacity: 80%;
   text-align: right;
   width: 300px;
+  z-index: 50;
+}
+
+.Navbar.brand {
   z-index: 50;
 }
 
@@ -70,39 +76,34 @@ body {
   display: none;
 }
 
-  @media only screen and (max-width: 890px) {
-    .Navbar.Toggle {
-      display: none;
-    }
 
-    .mainapp {
-      width: 100vh;
-    }
- 
-    // .burger-nav {
-    //   position: absolute;
-    //   top: 40px;
-    // } 
 
-    // .navlist {
-    // position: absolute;
-    // bottom: 40px;
-    // }
+@media only screen and (max-width: 890px) {
+  .Navbar.Toggle {
+    display: none;
   }
+
+  .mainapp {
+    width: 100vh;
+  }
+ 
+  .navlist {
+    position: absolute;
+    top: 60px;
+    width: 50px;
+    } 
+  }
+
 
   .navbar-toggler {
     border: none;
     position: absolute;
     right: 30px;
-    top: 40px;
+    top: 25px;
     z-index: 50;
     position: fixed;
     padding: 10px;
-
   }
-
-  
-  
 
 
 // * * * * * * * * * * * * H O M E * * * * * * * * * * * * 
@@ -111,10 +112,6 @@ body {
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
-}
-
-.home {
-  opacity: 80%;
 }
 
 .apps {
@@ -213,42 +210,26 @@ animation:BackgroundAnimated 30s linear infinite alternate;
   text-align: justify; 
 }
 
-// * * * Collapsable project text
-/* Style the button that is used to open and close the collapsible content */
-
-.collapsible {
-  background-color: transparent;
-  color: black;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  transition: ease-in-out 1s; 
+.btn-primary.focus, .btn-primary:focus {
+box-shadow: none;
+border-color: transparent;
+outline: transparent;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: transparent;
-  outline-color: black;
-  text-shadow: 0 0 8px rgba(0,0,0,0.3);
-  text-decoration: underline;
+.btn{
+  border-color: transparent;
+	box-shadow: transparent;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  transition: ease-in-out 1s;
-  background-color: transparent;
+.project-title:hover {
+  color: transparent;
+}
+
+.hidden-text {
   text-transform: none;
-  font-weight: lighter;
-} 
+  margin-top: -20px;
+}
+
 
 .project1-image {
   height: 3em;
@@ -313,8 +294,6 @@ animation:BackgroundAnimated 30s linear infinite alternate;
   -moz-transform: rotate(720deg);
 }
 
-
-
 // * * * * * * * * * * * * E X P E R I E N C E * * * * * * * * * * * * 
 
 #experience {
@@ -361,45 +340,45 @@ animation:BackgroundAnimated 30s linear infinite alternate;
 
 //* hover text to preview image *** (https://support.cargo.site/Show-an-Image-on-Hover)
 
-.hover-title {
-  display: inline;
-  pointer-events: auto;
-  cursor: pointer;
-}
+// .hover-title {
+//   display: inline;
+//   pointer-events: auto;
+//   cursor: pointer;
+// }
 
-.hover-image {
-  visibility: hidden;
-}
+// .hover-image {
+//   visibility: hidden;
+// }
 
-body:not(.mobile) .hover-title:hover + .hover-image {
-  visibility: visible;
-  pointer-events: none;
-}
+// body:not(.mobile) .hover-title:hover + .hover-image {
+//   visibility: visible;
+//   pointer-events: none;
+// }
 
-.hover-image {
-  display: flex;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  pointer-events: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+// .hover-image {
+//   display: flex;
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   z-index: -1;
+//   pointer-events: none;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
 
-/* Change width and height to scale images */
-  width: 90vw;
-  height: 90vh;
-}
+// /* Change width and height to scale images */
+//   width: 90vw;
+//   height: 90vh;
+// }
 
-.hover-image img {
-  max-width: 100% !important;
-  max-height: 100% !important;
-  width: auto !important;
-  height: auto !important;
-  margin-bottom: 0;
-}
+// .hover-image img {
+//   max-width: 100% !important;
+//   max-height: 100% !important;
+//   width: auto !important;
+//   height: auto !important;
+//   margin-bottom: 0;
+// }
 
 
 //* * * * * * * * * * * * * * * * * * * * * * * * *
@@ -415,6 +394,3 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   margin: 300px 0 450px 0;
   text-align: center;
 }
-// * * * * * * * * * * * * NAV BAR * * * * * * * * * * * * 
-
-

@@ -21,11 +21,6 @@ function Experience() {
         </div> 
         <hr className="bg-dark border-5 border-top border-dark"></hr>
 
-          
-
-
-
-
 
         <div className="bgClip text-uppercase fs-6 fw-bold">Senior Designer - The 1922 Clothing Company Ltd (2009 - 2014)</div>
         <ul className="bgClip fw-lighter exp fs-6 mb-0">

@@ -6,7 +6,7 @@ function Skills() {
   AOS.init()
   return (
 
-    <section className="mt-50 blurry-text" id="skills">
+    <section className="mt-50 blurry-text opacity-75" id="skills">
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div className="bgClip title text-uppercase mb-0 fw-bold">skills</div>
         <hr className="col-12 bg-dark border-5 border-top border-dark"></hr>
