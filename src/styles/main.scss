@@ -36,11 +36,14 @@ body {
 
   //static background white base:
   background-image: url(https://i.imgur.com/DyLUqdw.jpg);
-  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  // background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
+
 
 
 
@@ -134,8 +137,8 @@ body {
 
 // * * * * * * * * * * * * F O N T  T E X T U R E * * * * * * * * * * * * 
 
-p {font-family: 'Saira', sans-serif; text-transform:uppercase;}
-
+p {font-family: 'Saira', sans-serif; }
+// text-transform:uppercase;
 .bgClip {background-image:url("https://i.imgur.com/Qs7tsvS.jpg");
 background-position:0 25%;  
 color:transparent;

@@ -11,7 +11,7 @@ function About() {
 
         <div className="bgClip opacity-75 title text-uppercase fw-bold">about me</div>        
         <hr className="bg-dark bgClip border-5 border-top border-dark"></hr>
-        <div className="bgClip opacity-75 fw-lighter fs-6 mb-0">
+        <div className="bgClip opacity-75 fw-normal fs-6 mb-0">
         After spending over a decade in menswear fashion design, I wanted to move into a career that would challenge me and allow me to combine my design background and experience into programming.
           <br></br><br></br>
         A 12 week bootcamp at General Assembly (Software Engineering Immersive) was the perfect kick start to building my foundation skills and understanding. 
