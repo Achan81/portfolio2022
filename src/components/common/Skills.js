@@ -6,58 +6,59 @@ function Skills() {
   AOS.init()
   return (
 
+
     <section className="mt-50 blurry-text" id="skills">
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div className="bgClip title text-uppercase mb-0 fw-bold opacity-75">skills</div>
         <hr className="col-12 bg-dark border-5 border-top border-dark"></hr>
 
-        <div className="container">
+        <div className="container skills-group">
           <div className="row">
 
-            <ul className="col bgClip fw-bold opacity-75">
+            <ul className="col-6 col-md-3 bgClip fw-bold opacity-75">
               <div className="fw-bold mb-3 ">FRONT END</div>
-              <li className="mb-3 fw-lighter">HTML5</li>
-              <li className="mb-3 fw-lighter">CSS</li>
-              <li className="mb-3 fw-lighter">JavaScript</li>
-              <li className="mb-3 fw-lighter">React.js</li>
-              <li className="mb-3 fw-lighter">SASS</li>
-              <li className="mb-3 fw-lighter">Bulma</li>
-              <li className="mb-3 fw-lighter">Bootstrap 5.0</li>
-              <li className="mb-3 fw-lighter">Tailwind 3.0</li>
+              <div className="mb-3 fw-lighter">&bull; HTML5</div>
+              <div className="mb-3 fw-lighter">&bull; CSS</div>
+              <div className="mb-3 fw-lighter">&bull; JavaScript</div>
+              <div className="mb-3 fw-lighter">&bull; React.js</div>
+              <div className="mb-3 fw-lighter">&bull; SASS</div>
+              <div className="mb-3 fw-lighter">&bull; Bulma</div>
+              <div className="mb-3 fw-lighter">&bull; Bootstrap 5.0</div>
+              <div className="mb-3 fw-lighter">&bull; Tailwind 3.0</div>
             </ul>
 
-            <ul className="col bgClip fw-bold opacity-75">
+            <ul className="col-6 col-md-3 bgClip fw-bold opacity-75">
               <div className="fw-bold mb-3 fs-5">BACK END</div>
-              <li className="mb-3 fw-lighter">Node.js</li>
-              <li className="mb-3 fw-lighter">MongoDB</li>
-              <li className="mb-3 fw-lighter">Mongoose</li>
-              <li className="mb-3 fw-lighter">Python 3</li>
-              <li className="mb-3 fw-lighter">Django</li>
-              <li className="mb-3 fw-lighter">Insomnia</li>
-              <li className="mb-3 fw-lighter">TablePlus</li>
+              <div className="mb-3 fw-lighter">&bull; Node.js</div>
+              <div className="mb-3 fw-lighter">&bull; MongoDB</div>
+              <div className="mb-3 fw-lighter">&bull; Mongoose</div>
+              <div className="mb-3 fw-lighter">&bull; Python 3</div>
+              <div className="mb-3 fw-lighter">&bull; Django</div>
+              <div className="mb-3 fw-lighter">&bull; Insomnia</div>
+              <div className="mb-3 fw-lighter">&bull; TablePlus</div>
             </ul>
 
-            <ul className="col bgClip fw-bold opacity-75">
+            <ul className="col-6 col-md-3 bgClip fw-bold opacity-75">
               <div className="fw-bold mb-3 fs-5">PACKAGE</div>
-              <li className="mb-3 fw-lighter">npm</li>
-              <li className="mb-3 fw-lighter">pip</li>
+              <div className="mb-3 fw-lighter">&bull; npm</div>
+              <div className="mb-3 fw-lighter">&bull; pip</div>
               <br></br>
               <div className="fw-bold mb-3 fs-5">STORAGE</div>
-              <li className="mb-3 fw-lighter">Heroku</li>
-              <li className="mb-3 fw-lighter">Netlify</li>
-              <li className="mb-3 fw-lighter">Cloudinary</li>
+              <div className="mb-3 fw-lighter">&bull; Heroku</div>
+              <div className="mb-3 fw-lighter">&bull; Netlify</div>
+              <div className="mb-3 fw-lighter">&bull; Cloudinary</div>
             </ul>
 
 
-            <ul className="col bgClip fw-bold opacity-75">
+            <ul className="col-6 col-md-3 bgClip fw-bold opacity-75">
               <div className="fw-bold mb-3 fs-5">VERSION CONTROLS</div>
-              <li className="mb-3 fw-lighter">Git</li>
-              <li className="mb-3 fw-lighter">GitHub</li>
+              <div className="mb-3 fw-lighter">&bull; Git</div>
+              <div className="mb-3 fw-lighter">&bull; GitHub</div>
               <br></br>
               <div className="fw-bold mb-3 fs-5">DESIGN</div>
-              <li className="mb-3 fw-lighter">Adobe Illustrator</li>
-              <li className="mb-3 fw-lighter">Adobe Photoshop</li>
-              <li className="mb-3 fw-lighter">Excalidraw (planning)</li>
+              <div className="mb-3 fw-lighter">&bull; Adobe Illustrator</div>
+              <div className="mb-3 fw-lighter">&bull; Adobe Photoshop</div>
+              <div className="mb-3 fw-lighter">&bull; Excalidraw (planning)</div>
             </ul>
 
           </div>
@@ -66,6 +67,8 @@ function Skills() {
         <hr className="bg-dark border-5 border-top border-dark"></hr>
       </div>
     </section>
+
+    
   )
 }
 export default Skills

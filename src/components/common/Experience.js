@@ -29,9 +29,9 @@ function Experience() {
         <Collapse in={openDM}>
           <div id="collapse-text1" className="bgClip container content opacity-75">
             <div className="hidden-text fw-normal exp fs-6 mb-0">
-              <p>&bull; 2014 - Promoted to Design Manager/Head of Design - overseeing the design team and designing for multiple brands supplying to the UK high street.</p>
-              <p>&bull; Brands include Next mens shirts, River Island mens & boys shirts/jersey, TK Maxx men & boys shirts/jersey, Slaters Menswear Shirts, M&S shirts, Asos shirts, Urban Outfitters etc.</p>
-              <p>&bull; Involved on all new accounts strategy & product development, design and development, sourcing, sampling, costing.</p>
+              <div>&bull; 2014 - Promoted to Design Manager/Head of Design - overseeing the design team and designing for multiple brands supplying to the UK high street.</div>
+              <div>&bull; Brands include Next mens shirts, River Island mens & boys shirts/jersey, TK Maxx men & boys shirts/jersey, Slaters Menswear Shirts, M&S shirts, Asos shirts, Urban Outfitters etc.</div>
+              <div>&bull; Involved on all new accounts strategy & product development, design and development, sourcing, sampling, costing.</div>
             </div>
           </div> 
         </Collapse>        
@@ -47,11 +47,11 @@ function Experience() {
         <Collapse in={openSD}>
           <div id="collapse-text1" className="bgClip container content opacity-75">
             <div className="hidden-text fw-normal exp fs-6 mb-0">
-              <p>&bull; Promoted to Senior Designer, leading a small team of designers on my team.</p>
-              <p>&bull; Recruiting and training Junior Designers.</p>
-              <p>&bull; In charge of product development for seasonal concepts ownbrand and customer brands.</p>
-              <p>&bull; Account management & merchandising, trained to cost CMT product whilst designing to the customers need to meet required margins for both the customer and the company.</p>
-              <p>&bull; In charge of Fabric sourcing and development - source and development latest fabric trends relevant to customer base.</p>
+              <div>&bull; Promoted to Senior Designer, leading a small team of designers on my team.</div>
+              <div>&bull; Recruiting and training Junior Designers.</div>
+              <div>&bull; In charge of product development for seasonal concepts ownbrand and customer brands.</div>
+              <div>&bull; Account management & merchandising, trained to cost CMT product whilst designing to the customers need to meet required margins for both the customer and the company.</div>
+              <div>&bull; In charge of Fabric sourcing and development - source and development latest fabric trends relevant to customer base.</div>
             </div>
           </div> 
         </Collapse>        
@@ -67,10 +67,10 @@ function Experience() {
         <Collapse in={openD}>
           <div id="collapse-text1" className="bgClip container content opacity-75">
             <div className="hidden-text fw-normal exp fs-6 mb-0">
-              <p>&bull; 1922 is a whole sale supplier to the UK High Street.</p>
-              <p>&bull; Initially working with a small customer base specialising in short leadtime product.</p>
-              <p>&bull; My role was to cad / design for all customers and liase with factories to ensure samples were made correctly.</p> 
-              <p>&bull; Product range from Casual and Formal Woven Shirts, Polo shirts, Sweaters, Tees, Nightwear).</p>  
+              <div>&bull; 1922 is a whole sale supplier to the UK High Street.</div>
+              <div>&bull; Initially working with a small customer base specialising in short leadtime product.</div>
+              <div>&bull; My role was to cad / design for all customers and liase with factories to ensure samples were made correctly.</div> 
+              <div>&bull; Product range from Casual and Formal Woven Shirts, Polo shirts, Sweaters, Tees, Nightwear.</div>  
             </div>
           </div> 
         </Collapse>        
@@ -87,11 +87,11 @@ function Experience() {
         <Collapse in={openFGD}>
           <div id="collapse-text1" className="bgClip container content opacity-75">
             <div className="hidden-text fw-normal exp fs-6 mb-0">
-              <p>&bull; Original company name, Focus International - the company specialised in license sportswear brands (garments and footwear).</p>
-              <p>&bull; I joined the fashion department as a Graphic/Fashion Designer assisting established Fashion Designers to help cad hand sketched product to be factory ready for sampling and development.</p>
-              <p>&bull; Customer base was a mixture of ownbrand (UaRe) supplying to the UK independants, and supplying SMU (special make up) to UK highstreet brands.</p>
-              <p>&bull; During this time, I was able to train and apply my learnings into understanding fashion garment construction.</p>
-              <p>&bull; Brands that I designed for: Jack Purcell (Converse), UaReU, Next Mens, Stiff Records.</p>  
+              <div>&bull; Original company name, Focus International - the company specialised in license sportswear brands (garments and footwear).</div>
+              <div>&bull; I joined the fashion department as a Graphic/Fashion Designer assisting established Fashion Designers to help cad hand sketched product to be factory ready for sampling and development.</div>
+              <div>&bull; Customer base was a mixture of ownbrand (UaRe) supplying to the UK independants, and supplying SMU (special make up) to UK highstreet brands.</div>
+              <div>&bull; During this time, I was able to train and apply my learnings into understanding fashion garment construction.</div>
+              <div>&bull; Brands that I designed for: Jack Purcell (Converse), UaReU, Next Mens, Stiff Records.</div>  
             </div>
           </div> 
         </Collapse>        
@@ -107,15 +107,15 @@ function Experience() {
         <Collapse in={openFree}>
           <div id="collapse-text1" className="bgClip container content opacity-75">
             <div className="hidden-text fw-normal exp fs-6 mb-0">
-              <p>&bull; Fresh out of University, I was headhunted to contract freelance for a High Street brand called &quot;Pash&quot; (Girlswear) - head office located in Droitwich Spa. (contract period approx 6 months)</p>
-              <p>&bull; My main duties were to cad garments and graphics for both factory sampling and catalogue presentation.</p>
-              <p>&bull; My next long term contract was designing at Scratch Distribution / The Krunch in Worcester.</p>
-              <p>&bull; Here I was working inhouse as a Graphic designer doing all promotional instore Graphics.</p>
-              <p>&bull; And worked on multiple ventures, from start-up fashion brands and product import graphics.</p>
+              <div>&bull; Fresh out of University, I was headhunted to contract freelance for a High Street brand called &quot;Pash&quot; (Girlswear) - head office located in Droitwich Spa. (contract period approx 6 months)</div>
+              <div>&bull; My main duties were to cad garments and graphics for both factory sampling and catalogue presentation.</div>
+              <div>&bull; My next long term contract was designing at Scratch Distribution / The Krunch in Worcester.</div>
+              <div>&bull; Here I was working inhouse as a Graphic designer doing all promotional instore Graphics.</div>
+              <div>&bull; And worked on multiple ventures, from start-up fashion brands and product import graphics.</div>
               <br></br>
-              <p>&bull; other freelance jobs:</p>
-              <p> - company brand for local business clients focusing on traditional graphic design.</p>
-              <p> - events flyers / banners graphics.</p> 
+              <div>&bull; Other freelance jobs:</div>
+              <div>&nbsp; - company brand for local business clients focusing on traditional graphic design.</div>
+              <div>&nbsp; - events flyers / banners graphics.</div> 
             </div>
           </div> 
         </Collapse>        
@@ -125,5 +125,7 @@ function Experience() {
     </div>
   )
 }
+//*** NOTE: I know how to use ul/li but had issues with bullet points not appearing on browsers (chrome/safari) apart from Firefox Developer. 
+//***So a work around was to change the <li> to <div> and manually place &bull; ***  
 
 export default Experience
