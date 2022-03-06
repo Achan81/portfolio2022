@@ -6,10 +6,10 @@ function About() {
   // AOS.init()
   return (
 
-    <section className="blurry-text" id="about">
+    <section className="blurry-text justify-content-center" id="about">
       {/* <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> */}
 
-      <div className="opacity-100 title text-uppercase fw-bold">about me</div>        
+      <div className="opacity-100 title text-uppercase fw-bold ">about me</div>        
       <hr className="border border-1 border-dark"></hr>
       <div className="opacity-100 fw-normal fs-6 mb-0">
         After spending over a decade in menswear fashion design, I wanted to move into a career that would challenge me and allow me to combine my design background and experience into programming.

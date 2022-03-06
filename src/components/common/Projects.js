@@ -113,7 +113,7 @@ function Projects() {
           <div className="container">
             <div className="d-flex flex-row justify-content-center mt-1">
               <a href="https://placebookapp.netlify.app/" rel="noopener noreferrer" target="_blank">
-                <img alt="project3" src="https://i.imgur.com/XUaI8kk.png" className="icon project3-image col"/></a>
+                <img alt="project3" src="https://i.imgur.com/ZC3Y6Hc.png?1" className="icon project3-image col"/></a>
               <a href="https://github.com/Achan81/sei-project-three-frontend/blob/main/README.md" rel="noopener noreferrer" target="_blank">
                 <img alt="readme3" src="https://i.imgur.com/yWic7vC.png" className="icon readme3-image col"/></a>
             </div>
