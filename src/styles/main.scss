@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 // negative margin up because Bootstrap does not offer this in 5.0
 $enable-negative-margins: true;
 .mt-n70 {margin-top: -7rem !important;}
@@ -22,10 +23,10 @@ $enable-negative-margins: true;
 .mt-n10 {margin-top: -1rem !important;}
 .mt-n05 {margin-top: -0.5rem !important;}
 
+
 body {
   font-family: 'Saira', sans-serif;
-  // color: white;
-  color: black;
+  color: #000000;
 
   //* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
   //black urban abstract GIF:
@@ -35,21 +36,40 @@ body {
   // background-image: url('https://i.imgur.com/UvwBpkI.gif');
 
   //static background white base:
-  background-image: url(https://i.imgur.com/DyLUqdw.jpg);
+  // background-image: url(https://i.imgur.com/DyLUqdw.jpg);
+
+  // background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  // background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
 }
 
+h1 {
+  color: #000;
+}
 
+p {
+  color: #000;
+}
 
+div {
+  color: #000;
+}
+
+hr {
+  color:#000;
+  opacity: 1;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .blurry-text {
-  outline-color: black;
-  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+    outline-color: none;
+  // outline-color: black;
+  // text-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
 
 .title {
@@ -63,23 +83,36 @@ body {
   letter-spacing: 3px;
 }
 
-
 .nav-list {
   letter-spacing: 3px;
   text-align: right;
-  width: 300px;
+  width: 200px;
   z-index: 50;
 }
+
+.darkmode--activated p {
+  color: #FFF;
+}
+
+.darkmode--activated div {
+  color: rgb(0, 0, 0);
+}
+
+.darkmode--activated NavLinkProps {
+  color: rgb(0, 0, 0);
+}
+
+// .darkmode--activated Nav, .darkmode--activated li {
+//   color: #FFF;
+// }
 
 .Navbar.brand {
   z-index: 50;
 }
 
-.top-nav {
-  display: none;
-}
-
-
+// .top-nav {
+//   display: none;
+// }
 
 @media only screen and (max-width: 890px) {
   .Navbar.Toggle {
@@ -92,7 +125,7 @@ body {
  
   .navlist {
     position: absolute;
-    top: 60px;
+    top: 10px;
     width: 50px;
     } 
   }
@@ -103,11 +136,17 @@ body {
     position: absolute;
     right: 30px;
     top: 25px;
-    z-index: 50;
+    z-index: 30;
     position: fixed;
     padding: 10px;
+
+
   }
 
+  .darkmode--activated navbar-toggler {
+    color: #000;
+  }
+ 
 
 // * * * * * * * * * * * * H O M E * * * * * * * * * * * * 
 
@@ -115,6 +154,7 @@ body {
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
+  color: #000000;
 }
 
 .apps {
@@ -132,77 +172,6 @@ body {
   -webkit-text-stroke-color: black;
   -webkit-text-fill-color: transparent;
 }
-
-
-// .arrow {
-//   margin-bottom: 20px;
-//   height: 35px;
-//   // filter: invert(71%) sepia(11%) saturate(2097%) hue-rotate(119deg) brightness(94%) contrast(83%);
-// }
-// .arrow:hover {
-//   animation: stretch 0.5s ease-out 0s alternate infinite none running;
-// }
-// @keyframes stretch{
-//   100% {
-//     transform: scale(.3);
-//   }
-// }
-
-
-
-// * * * * * * * * * * * * F O N T  T E X T U R E * * * * * * * * * * * * 
-
-p {font-family: 'Saira', sans-serif; }
-// text-transform:uppercase;
-.bgClip {background-image:url("https://i.imgur.com/Qs7tsvS.jpg");
-background-position:0 25%;  
-color:transparent;
-padding:20px 40px;
--webkit-background-clip:text;
--moz-background-clip:text;
-background-clip:text;
--webkit-text-fill-color:transparent;
--webkit-animation:BackgroundAnimated 30s linear infinite alternate;
--moz-animation:BackgroundAnimated 30s linear infinite alternate;
--ms-animation:BackgroundAnimated 30s linear infinite alternate;
--o-animation:BackgroundAnimated 30s linear infinite alternate;
-animation:BackgroundAnimated 30s linear infinite alternate;
-}
-
-@keyframes BackgroundAnimated {
-  from {
-    background-position:100 0
-  }
-  to {
-    background-position:100% 0
-  }
-}
-
-@-webkit-keyframes BackgroundAnimated {
-    from {
-        background-position:0 0
-    }
-    to {
-        background-position:100% 0
-    }
-}
-    @-ms-keyframes BackgroundAnimated {     
-      from {
-        background-position:0 0
-    }
-    to {
-        background-position:100% 0
-    }
-}
-    @-moz-keyframes BackgroundAnimated {
-    from {
-        background-position:0 0
-    }
-    to {
-        background-position:100% 0
-    }
-}
-
 
 // * * * * * * * * * * * * A B O U T * * * * * * * * * * * * 
 
@@ -239,15 +208,14 @@ outline: transparent;
 	box-shadow: transparent;
 }
 
-.project-title:hover {
-  color: transparent;
-}
+// .project-title:hover {
+//   color: transparent;
+// }
 
 .hidden-text {
   text-transform: none;
   margin-top: -15px;
 }
-
 
 .project1-image {
   height: 3em;
@@ -337,7 +305,7 @@ outline: transparent;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  z-index: 1;
+  z-index: 1000;
 }
 
 .interests-img:hover {
@@ -348,7 +316,10 @@ outline: transparent;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
+ 
 }
+
+
 
 // * * * * * * * * * * * * C O N T A C T * * * * * * * * * * * * 
 
@@ -379,3 +350,12 @@ outline: transparent;
   margin-bottom: 50px;
   font-size: smaller;
 }
+
+// .darkmode-layer, .darkmode-toggle {
+//   z-index: 100;
+// }
+
+// .interests-img {
+// z-index: 1000;
+
+// }
