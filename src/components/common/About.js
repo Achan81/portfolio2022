@@ -4,7 +4,7 @@ function About() {
   
   return (
     <section className="blurry-text justify-content-center" id="about">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">
 
         <div className="opacity-100 title text-uppercase fw-bold ">about me</div>
         <hr className="border border-1 border-dark"></hr>

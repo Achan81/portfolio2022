@@ -4,7 +4,6 @@ import { Collapse } from 'react-bootstrap'
 
 function Experience() {
 
-
   const [openDM, setOpenDM ] = React.useState(false)
   const [openSD, setOpenSD ] = React.useState(false)
   const [openD, setOpenD ] = React.useState(false)
@@ -14,7 +13,7 @@ function Experience() {
   return (
   
     <div className="blurry-text" id="experience">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">
         <div className="title text-uppercase fw-bold opacity-100">experience</div>
         <hr></hr>
 

@@ -5,14 +5,12 @@ function Contact() {
 
   return (
     <section className="blurry-text" id="contact">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">        
         <div className="opacity-100 title text-uppercase fw-bold">contact</div>
         <hr className="border border-1 border-dark"></hr>
 
-
         <h3 className="opacity-100 fs-6 text-uppercase fw-bold">Get in touch</h3>
         <div className="container container-fluid opacity-100 col-6">
-
 
           <div className="container">
             <div className="d-flex flex-row justify-content-center">

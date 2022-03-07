@@ -6,7 +6,7 @@ function Home() {
   return (
 
     <div className="home">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">
       
         <div className="container-fluid justify-content-center blurry-text text-uppercase opacity-100" id="home">
           <div className="main">
@@ -20,7 +20,7 @@ function Home() {
                 <span className="fs-2 fw-normal">in_</span>london...</div>
             </div>
             <div className="ascii display-1 fw-bold mt-n10">ˁ(OᴥO)ˀ</div>  
-            <div className="apps fw-normal"> react | javaScript | python | css</div>
+            <div className="apps fw-normal"> javaScript | python | css</div>
             <hr className="border border-1 border-dark"></hr>
           </div>
         </div>

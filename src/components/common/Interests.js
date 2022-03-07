@@ -3,7 +3,7 @@ import React from 'react'
 function Interests() {
   return (
     <section className="blurry-text" id="interests">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">
   
         <div className="opacity-100 title text-uppercase fw-bold">interests</div>
         <hr></hr>

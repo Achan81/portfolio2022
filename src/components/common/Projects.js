@@ -12,7 +12,7 @@ function Projects() {
   return (
 
     <div className="mt-50 blurry-text" id="projects">
-      <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="800" data-aos-easing="ease-in-out-back">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-out-back">
         <div className="title text-uppercase mb-0 fw-bold opacity-100">projects</div>
         <hr className="border border-1 border-dark"></hr>
         <div className="fs-6 mb-0 fw-bold opacity-100">General Assembly - Software Engineering Immersive Course:</div>
@@ -41,13 +41,14 @@ function Projects() {
             <br></br><br></br> 
             Although a classic arcade game, I focused on making sure the player controls and gameplay runs smoothly. I also added up down controls feature to allow the user experience to be more advanced. The styling is a mix of retro and contemporary, with a space themed background.
             <br></br><br></br>
-            The game is not mobile friendly and sound files were corrupted when deploying. I would very much like to revisit and improve the game further.
+            Future improvement would include making mobile responsive and adding sound files.
             </div>
 
             <div className="container">
               <div className="d-flex flex-row justify-content-center mt-1">
                 <a href="https://achan81.github.io/sei-project-01/" rel="noopener noreferrer" target="_blank">
                   <img alt="project1" src="https://i.imgur.com/jYp35wH.png" className="darkmode-ignore icon project1-image col"/></a>
+
                 <a href="https://github.com/Achan81/sei-project-01/blob/main/readme.md" rel="noopener noreferrer" target="_blank">
                   <img alt="readme1" src="https://i.imgur.com/yWic7vC.png" className="project-images icon readme1-image col"/></a>
               </div>
@@ -106,7 +107,7 @@ function Projects() {
               <br></br><br></br> 
             As a group, we created an app which allowed users to share travel memories in the form of photo uploads and geo mapping locations that linked with memories based on field input. We all worked Full-Stack, while my specific focus was on building the front end structure, CSS and designing to be mobile ready. 
               <br></br><br></br> 
-            The CSS framework used on this project was Bootstrap 5.0 and a little bit of React Bootstrap.
+            The CSS framework used on this project was Bootstrap 5.0 and React Bootstrap.
             </div>
             <div className="container">
               <div className="d-flex flex-row justify-content-center mt-1">
@@ -144,6 +145,7 @@ function Projects() {
                   <img alt="project4" src="https://i.imgur.com/xB9oxFs.png" className="icon project4-image col"/></a>
                 <a href="https://github.com/Achan81/sei-project-four-fe/blob/main/README.md" rel="noopener noreferrer" target="_blank">
                   <img alt="readme4" src="https://i.imgur.com/yWic7vC.png" className="icon readme4-image col"/></a>
+                  
               </div>
             </div>
             <a href="https://pawhubz.netlify.app/" rel="noopener noreferrer" target="_blank">
