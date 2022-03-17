@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <div className="container">
-      <h3 className="footer-text opacity-100 fs-6">Alex Chan <span className="fs-5">&copy;</span> {currentYear}</h3>
+      <h3 className="footer-text opacity-100 fs-6 dark">Alex Chan <span className="fs-5">&copy;</span> {currentYear}</h3>
     </div>
   )
 }
