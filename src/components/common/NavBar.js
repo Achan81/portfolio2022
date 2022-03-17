@@ -28,6 +28,7 @@ function NavBar() {
               <Nav.Link className="mt-n20" href="#about"><p className="opacity-100">About</p></Nav.Link>
               <Nav.Link className="mt-n20" href="#skills"><p className="opacity-100">Skills</p></Nav.Link>
               <Nav.Link className="mt-n20" href="#projects"><p className="opacity-100">Projects</p></Nav.Link>
+              <Nav.Link className="mt-n20" href="#sideprojects"><p className="opacity-100">Side Projects</p></Nav.Link>
               <Nav.Link className="mt-n20" href="#experience"><p className="opacity-100">Experience</p></Nav.Link>
               <Nav.Link className="mt-n20" href="#interests"><p className="opacity-100">Interests</p></Nav.Link>
               <Nav.Link className="mt-n20" href="#contact"><p className="opacity-100">Contact</p></Nav.Link>

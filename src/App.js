@@ -5,6 +5,7 @@ import Home from './components/common/Home'
 import About from './components/common/About'
 import Experience from './components/common/Experience'
 import Projects from './components/common/Projects'
+import SideProjects from './components/common/SideProjects'
 import Skills from './components/common/Skills'
 import Interests from './components/common/Interests'
 import Contact from './components/common/Contact'
@@ -21,6 +22,7 @@ function App() {
             <About/>
             <Skills/>
             <Projects/>
+            <SideProjects/>
             <Experience/>
             <Interests/>
             <Contact/>
